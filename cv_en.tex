@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Þórður Hermannsson -- Résumé} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> Blönduhlíð 13,\\ % Address line 1
+\> Reykjavik, 105\\ % Address line 2
+{\bf Date of Birth} \> 24$^{th}$ September 1987\\ % Date of birth 
+{\bf Nationality} \> Icelandic % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Mobile Phone} \> +0 (354) 6906649 \\ % Mobile phone
+{\bf Email} \> \href{mailto:doddi@kott.is}{doddi@kott.is} \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Personal Profile}
+
+Freelance programmer. I work as a independent contractor for various companies/individuals. 
+My main line of work over the past years has been web applications.
+
+%----------------------------------------------------------------------------------------
+%	PROJECT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\job
+{Sep 2016-}{Present}
+{Codecov, Netherlands/Iceland}
+{http://www.codecov.io}
+{Software Developer}
+{Codecov is a company specialized in making products for analysing and displaying code coverage data.\\
+At Codecov we are working on increasing performance in places where speed is critical.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Python. The C programming language is used in places where performance is critical.}
+
+%------------------------------------------------
+
+\job
+{Jan 2015-}{Present}
+{DV EHF, Reykjavik, Iceland}
+{http://www.dv.is}
+{System Administrator, Software Developer}
+{DV is one of the biggest news agency in Iceland. Since 2015 I have been managing their web. We are currently working on replacing their old web, written in Python/Django.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Python, Django, Redis, Memcached, Elasticsearch, Postgresql}
+
+%------------------------------------------------
+
+\job
+{Jan 2014-}{Present}
+{CompetitionFeed, Reykjavik, Iceland}
+{http://www.competitionfeed.com}
+{System Administrator, Software Developer}
+{CompetitionFeed is a feed reader made for competition authorities around the world. \\
+\rule{0mm}{5mm}\textbf{Technologies:} Ruby, Javascript, Rails, Redis, Memcached, Elasticsearch, Postgresql}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Sept 2015-}{Sept 2016}
+{Tempo, Reykjavik, Iceland}
+{http://www.tempo.io}
+{DevOps, Software Developer}
+{Tempo is a company that makes time tracking tools intigrated into agile solutions such as Atlassian Jira.
+While working there I was included in multiple teams. My work included DevOps, web programming, system administration and programming for multiple different platforms including mobile devices.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Python, Javascript, Shell, iOS, Android, Docker, Postgresql}
+
+%------------------------------------------------
+
+\job
+{May 2014-}{Jan 2015}
+{Integral Turing, Reykjavik, Iceland}
+{http://www.turing.is}
+{Software Developer}
+{Integral Turing is a company which makes web solutions. My work at Integral Turing was to help build their peer-to-peer car rental platform.
+The solution is programmed in Python with the Django Web Framework.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Javascript, Python/Django, Shell, Postgresql}
+
+%------------------------------------------------
+
+\job
+{May 2014-}{Jan 2015}
+{Fancy Pants Global, Reykjavik, Iceland}
+{https://www.linkedin.com/company/fancy-pants-global/}
+{Software Developer}
+{Worked on Mobile Appplication development as well as developing web applications in C\# ASP.NET. \\
+\rule{0mm}{5mm}\textbf{Technologies:} Cocoa, iOS, ASP.NET, C\#, Shell, Postgresql}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\tabbedblock{
+\bf{2011-2014} \> Computer Science - \href{http://www.ru.is}{The University of Reykjavik, Iceland} \\[5pt]
+\bf{2007-2010} \> Composition - \href{http://www.lhi.is}{Iceland Art Academy, Iceland} \\[5pt]
+}
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Engineering Skills}
+
+\skillgroup{Programming Languages}
+{
+\textit{Python}\\
+\textit{C}\\
+\textit{Golang}\\
+\textit{Ruby}\\
+\textit{Javascript}\\
+\textit{Java}\\
+\textit{PHP}\\
+\textit{ASP.NET, C\#, VB.NET}
+}
+
+%------------------------------------------------
+
+\skillgroup{Web Development}
+{
+\textit{HTML5, CSS3/SASS, JavaScript/CoffeeScript/jQuery}\\
+\textit{Ruby on Rails} - Web Framework \\
+\textit{Django} - Web Framework \\
+\textit{Test:Unit, RSpec, Cucumber, PyTest, Selenium} - automated testing frameworks\\
+\textit{Apache/Nginx Web Servers}
+}
+
+%------------------------------------------------
+
+\skillgroup{Miscellaneous}
+{
+\textit{Unity} - Game Engine\\
+\textit{Docker} - Containerization \\
+\textit{Elasticsearch} - Search engine\\
+\textit{Redis} - Cache\\
+\textit{Memcached} - Cache\\
+\textit{Postgresql} - Relational Database Management System\\
+\textit{MySQL Server}
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\interestsgroup{
+\interest{Music}
+\interest{Running, Cycling}
+\interest{Travelling}
+\interest{Photography}
+}
+%----------------------------------------------------------------------------------------
+
+\end{document}

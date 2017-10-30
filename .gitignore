@@ -8,3 +8,6 @@
 *.fls
 *.fdb_latexmk
 *.gz
+*.pdf
+*.xdv
+*.dvi
